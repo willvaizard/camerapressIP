@@ -1,13 +1,12 @@
 package entity;
 
-public class InfoRede {
-	
+public class InfoRedeEntity {
+	private int id;
 	private String ip;
 	private String nomeComputador;
 	private String nomeUser;
 	private String setor;
 	
-	private int id;
 	public int getId() {
 		return id;
 	}
